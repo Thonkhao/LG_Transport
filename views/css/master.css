@@ -1,0 +1,148 @@
+body{
+    background:#f6f8fa;font-family:"Segoe UI"
+    ,Tahoma,sans-serif;
+    font-size:14px;color:#1f2937;margin:0}
+
+button,a,input{outline-offset:3px}
+.app-topbar{height:64px;background:#fff;
+    border-bottom:1px solid #e4e8ee;
+    position:fixed;inset:0 0 auto;z-index:1030;
+    display:flex;align-items:center;
+    padding:0 30px;gap:24px}
+
+.brand{font-size:23px;
+    font-weight:800;color:#324be3!important;
+    letter-spacing:-.6px;width:194px;
+    text-decoration:none!important}
+
+.brand span{font-size:18px;
+    font-weight:400;color:#657183;
+    margin-left:5px}
+
+.header-note{margin-left:auto;
+    color:#7c8796;
+    font-size:12px}
+
+#menu-toggle{display:none;
+    border:0;background:white;
+    font-size:20px}
+
+#sidebar{position:fixed;
+    top:64px;bottom:0;
+    left:0;
+    width:244px;
+    background:#fff;
+    border-right:1px solid #e8ecf1;
+    padding:28px 16px;
+    overflow:auto;
+    z-index:1020}
+
+.nav-caption{font-size:10px;
+    letter-spacing:1.8px;
+    color:#9aa3b1;
+    padding:0 12px 16px}
+#sidebar a{display:flex;
+    align-items:center;
+    gap:12px;
+    padding:12px;
+    border-radius:5px;
+    color:#748092;
+    margin-bottom:3px;
+    text-decoration:none}
+
+#sidebar a[aria-current]{
+    background:#1c2432;
+    color:white
+}
+
+#sidebar a:hover{
+    background:#edf2fc;
+    color:#3154ce
+}
+main{
+    margin-left:244px;
+    padding:96px 40px 40px
+}
+.app-content-header{
+    padding:0 0 24px}
+    .app-content-header h3{
+        font-size:25px
+        ;font-weight:600
+    }
+.app-content{
+    position:relative
+}
+.app-content .container-fluid{padding:0}
+
+.card{
+    border:0;
+    box-shadow:none;
+    border-radius:5px
+}.card-body{padding:34px 24px}
+
+.fixed-circle-button{
+    position:absolute;
+    right:0;
+    top:-60px;
+    z-index:1;
+    border-radius:50%;
+    width:38px;
+    height:38px;
+    font-size:21px;
+    padding:0}
+
+#example{
+    font-size:12px}#example td,#example th{
+        vertical-align:middle;
+        white-space:nowrap;
+        border-bottom:1px solid #cfd4db
+    }
+#example thead th{
+    border-top:0;
+    border-bottom-width:1px
+}
+
+#example .btn-link{
+    padding:0 7px;
+    font-size:12px
+}
+.dataTables_wrapper{
+    font-size:12px
+}.dataTables_wrapper select{min-width:68px}
+
+.modal-title{
+    font-size:18px}.form-group label{font-size:13px}.form-group small{font-size:11px}
+
+.modal-footer{
+    gap:12px}.modal-body .form-control{font-size:13px}
+
+#loading-overlay,#processing-overlay{
+    position:fixed;
+    inset:0;
+    z-index:2000;
+    background:#ffffffeb;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;color:#3154ce}
+
+[hidden]{display:none!important}
+@media(max-width:900px){
+    main{padding:92px 20px 30px;
+        margin-left:208px}#sidebar{width:208px}
+    }
+
+@media(max-width:650px){
+    main{
+        margin-left:0;
+        padding:90px 16px 25px
+    }
+    #sidebar {
+        display:none;
+        box-shadow:12px 0 30px #0002
+    }.menu-open #sidebar{display:block}.app-topbar{
+        padding:0 16px}.brand{width:auto}#menu-toggle{
+            display:block;
+            margin-left:auto}.header-note{display:none}.card-body{
+                padding:22px 14px
+            }}

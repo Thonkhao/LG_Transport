@@ -1,0 +1,4 @@
+/procedures.generated.sql
+/.env
+/config/local.php
+*.log
